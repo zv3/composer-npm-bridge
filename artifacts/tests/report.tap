@@ -1,0 +1,18 @@
+TAP version 13
+ok 1 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testGet
+ok 2 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testHandlePostInstall
+ok 3 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testHandlePostUpdate
+ok 4 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testHandlePostUnknown
+ok 5 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testConstructor
+ok 6 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testConstructorDefaults
+ok 7 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testPostInstall
+ok 8 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testPostUpdate
+ok 9 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testExecuteNpm
+ok 10 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testExecuteNpmErrorOutput
+ok 11 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testUnwrap
+ok 12 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testUnwrapNoFilePresent
+ok 13 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testCreateNpmProcess
+ok 14 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testNpmPath
+ok 15 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testNpmPathFailure
+ok 16 - Eloquent\Composer\NPMBridge\NPMBridgeTest::testCreateProcessBuilder
+1..16
