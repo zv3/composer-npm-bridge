@@ -40,7 +40,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_install">install</a>(<abbr title="Composer\Composer">Composer</abbr> $composer)
+                    <a href="#method_install">install</a>(<abbr title="Composer\Composer">Composer</abbr> $composer, boolean|null $isDevMode = null)
                     <p>Install NPM dependencies for a Composer project and its dependencies.</p>
                 </td>
                 <td></td>
@@ -60,7 +60,7 @@
                     boolean
                 </td>
                 <td class="last">
-                    <a href="#method_isDependantPackage">isDependantPackage</a>(<abbr title="Composer\Package\PackageInterface">PackageInterface</abbr> $package)
+                    <a href="#method_isDependantPackage">isDependantPackage</a>(<abbr title="Composer\Package\PackageInterface">PackageInterface</abbr> $package, boolean|null $includeDevDependencies = null)
                     <p>Returns true if the supplied package requires the Composer NPM bridge.</p>
                 </td>
                 <td></td>
@@ -71,9 +71,9 @@
         <h2>Details</h2>
 
                         <h3 id="method_install">
-        <div class="location">at line 30</div>
+        <div class="location">at line 31</div>
         <code>            public            
-    <strong>install</strong>(<abbr title="Composer\Composer">Composer</abbr> $composer)</code>
+    <strong>install</strong>(<abbr title="Composer\Composer">Composer</abbr> $composer, boolean|null $isDevMode = null)</code>
     </h3>
     <div class="details">
         <p>Install NPM dependencies for a Composer project and its dependencies.</p>
@@ -87,6 +87,11 @@
                 <td><abbr title="Composer\Composer">Composer</abbr></td>
                 <td>$composer</td>
                 <td>The main Composer object.</td>
+            </tr>
+                    <tr>
+                <td>boolean|null</td>
+                <td>$isDevMode</td>
+                <td>True if dev mode is enabled.</td>
             </tr>
             </table>
 
@@ -110,7 +115,7 @@
     </div>
 
                 <h3 id="method_update">
-        <div class="location">at line 44</div>
+        <div class="location">at line 45</div>
         <code>            public            
     <strong>update</strong>(<abbr title="Composer\Composer">Composer</abbr> $composer)</code>
     </h3>
@@ -150,9 +155,9 @@ dependencies.</p>
     </div>
 
                 <h3 id="method_isDependantPackage">
-        <div class="location">at line 53</div>
+        <div class="location">at line 55</div>
         <code>            public            boolean
-    <strong>isDependantPackage</strong>(<abbr title="Composer\Package\PackageInterface">PackageInterface</abbr> $package)</code>
+    <strong>isDependantPackage</strong>(<abbr title="Composer\Package\PackageInterface">PackageInterface</abbr> $package, boolean|null $includeDevDependencies = null)</code>
     </h3>
     <div class="details">
         <p>Returns true if the supplied package requires the Composer NPM bridge.</p>
@@ -166,6 +171,11 @@ dependencies.</p>
                 <td><abbr title="Composer\Package\PackageInterface">PackageInterface</abbr></td>
                 <td>$package</td>
                 <td>The package to inspect.</td>
+            </tr>
+                    <tr>
+                <td>boolean|null</td>
+                <td>$includeDevDependencies</td>
+                <td>True if the dev dependencies should also be inspected.</td>
             </tr>
             </table>
 

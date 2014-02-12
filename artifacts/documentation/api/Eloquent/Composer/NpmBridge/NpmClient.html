@@ -71,7 +71,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method_install">install</a>(string|null $path = null)
+                    <a href="#method_install">install</a>(string|null $path = null, boolean|null $isDevMode = null)
                     <p>Install NPM dependencies for the project at the supplied path.</p>
                 </td>
                 <td></td>
@@ -188,9 +188,9 @@
     </div>
 
                 <h3 id="method_install">
-        <div class="location">at line 75</div>
+        <div class="location">at line 76</div>
         <code>            public            
-    <strong>install</strong>(string|null $path = null)</code>
+    <strong>install</strong>(string|null $path = null, boolean|null $isDevMode = null)</code>
     </h3>
     <div class="details">
         <p>Install NPM dependencies for the project at the supplied path.</p>
@@ -204,6 +204,11 @@
                 <td>string|null</td>
                 <td>$path</td>
                 <td>The path to the NPM project, or null to use the current working directory.</td>
+            </tr>
+                    <tr>
+                <td>boolean|null</td>
+                <td>$isDevMode</td>
+                <td>True if dev dependencies should be included.</td>
             </tr>
             </table>
 
@@ -227,7 +232,7 @@
     </div>
 
                 <h3 id="method_update">
-        <div class="location">at line 88</div>
+        <div class="location">at line 99</div>
         <code>            public            
     <strong>update</strong>(string|null $path = null)</code>
     </h3>
@@ -266,7 +271,7 @@
     </div>
 
                 <h3 id="method_shrinkwrap">
-        <div class="location">at line 101</div>
+        <div class="location">at line 112</div>
         <code>            public            
     <strong>shrinkwrap</strong>(string|null $path = null)</code>
     </h3>
