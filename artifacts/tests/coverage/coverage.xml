@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1455255592">
-  <project timestamp="1455255592">
+<coverage generated="1455255672">
+  <project timestamp="1455255672">
     <package name="Eloquent\Composer\NpmBridge\Exception">
       <file name="/home/travis/build/eloquent/composer-npm-bridge/src/Exception/NpmCommandFailedException.php">
         <class name="NpmCommandFailedException" namespace="Eloquent\Composer\NpmBridge\Exception">
