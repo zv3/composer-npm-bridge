@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="28" assertions="107" failures="0" errors="0" time="3.391433">
-    <testsuite name="Eloquent\Composer\NpmBridge\Exception\NpmCommandFailedExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmCommandFailedExceptionTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.008552">
-      <testcase name="testException" class="Eloquent\Composer\NpmBridge\Exception\NpmCommandFailedExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmCommandFailedExceptionTest.php" line="19" assertions="4" time="0.008552"/>
+  <testsuite name="" tests="28" assertions="107" failures="0" errors="0" time="3.402271">
+    <testsuite name="Eloquent\Composer\NpmBridge\Exception\NpmCommandFailedExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmCommandFailedExceptionTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.008823">
+      <testcase name="testException" class="Eloquent\Composer\NpmBridge\Exception\NpmCommandFailedExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmCommandFailedExceptionTest.php" line="19" assertions="4" time="0.008823"/>
     </testsuite>
-    <testsuite name="Eloquent\Composer\NpmBridge\Exception\NpmNotFoundExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmNotFoundExceptionTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.006395">
-      <testcase name="testException" class="Eloquent\Composer\NpmBridge\Exception\NpmNotFoundExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmNotFoundExceptionTest.php" line="19" assertions="3" time="0.006395"/>
+    <testsuite name="Eloquent\Composer\NpmBridge\Exception\NpmNotFoundExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmNotFoundExceptionTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.006625">
+      <testcase name="testException" class="Eloquent\Composer\NpmBridge\Exception\NpmNotFoundExceptionTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/Exception/NpmNotFoundExceptionTest.php" line="19" assertions="3" time="0.006625"/>
     </testsuite>
-    <testsuite name="Eloquent\Composer\NpmBridge\NpmBridgeFactoryTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeFactoryTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.693332">
-      <testcase name="testCreateBridge" class="Eloquent\Composer\NpmBridge\NpmBridgeFactoryTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeFactoryTest.php" line="26" assertions="1" time="0.693332"/>
+    <testsuite name="Eloquent\Composer\NpmBridge\NpmBridgeFactoryTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeFactoryTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.699407">
+      <testcase name="testCreateBridge" class="Eloquent\Composer\NpmBridge\NpmBridgeFactoryTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeFactoryTest.php" line="26" assertions="1" time="0.699407"/>
     </testsuite>
-    <testsuite name="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.240427">
-      <testcase name="testConstructorWithoutArguments" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="35" assertions="1" time="0.119831"/>
-      <testcase name="testActivate" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="40" assertions="1" time="0.014378"/>
-      <testcase name="testGetSubscribedEvents" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="45" assertions="1" time="0.014634"/>
-      <testcase name="testOnPostInstallCmd" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="56" assertions="3" time="0.037530"/>
-      <testcase name="testOnPostInstallCmdProductionMode" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="66" assertions="3" time="0.027162"/>
-      <testcase name="testOnPostUpdateCmd" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="76" assertions="3" time="0.026892"/>
+    <testsuite name="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.240649">
+      <testcase name="testConstructorWithoutArguments" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="35" assertions="1" time="0.118458"/>
+      <testcase name="testActivate" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="40" assertions="1" time="0.014501"/>
+      <testcase name="testGetSubscribedEvents" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="45" assertions="1" time="0.014987"/>
+      <testcase name="testOnPostInstallCmd" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="56" assertions="3" time="0.038919"/>
+      <testcase name="testOnPostInstallCmdProductionMode" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="66" assertions="3" time="0.027299"/>
+      <testcase name="testOnPostUpdateCmd" class="Eloquent\Composer\NpmBridge\NpmBridgePluginTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgePluginTest.php" line="76" assertions="3" time="0.026485"/>
     </testsuite>
-    <testsuite name="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" tests="8" assertions="44" failures="0" errors="0" time="0.516884">
-      <testcase name="testInstall" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="48" assertions="8" time="0.127508"/>
-      <testcase name="testInstallProductionMode" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="65" assertions="8" time="0.078947"/>
-      <testcase name="testInstallRootDevDependenciesInDevMode" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="82" assertions="1" time="0.044912"/>
-      <testcase name="testInstallRootDevDependenciesInProductionMode" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="91" assertions="1" time="0.043522"/>
-      <testcase name="testInstallNothing" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="100" assertions="5" time="0.052921"/>
-      <testcase name="testUpdate" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="114" assertions="10" time="0.092267"/>
-      <testcase name="testUpdateNothing" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="133" assertions="5" time="0.052898"/>
-      <testcase name="testIsDependantPackage" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="147" assertions="6" time="0.023909"/>
+    <testsuite name="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" tests="8" assertions="44" failures="0" errors="0" time="0.516283">
+      <testcase name="testInstall" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="48" assertions="8" time="0.126470"/>
+      <testcase name="testInstallProductionMode" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="65" assertions="8" time="0.078333"/>
+      <testcase name="testInstallRootDevDependenciesInDevMode" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="82" assertions="1" time="0.046130"/>
+      <testcase name="testInstallRootDevDependenciesInProductionMode" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="91" assertions="1" time="0.043657"/>
+      <testcase name="testInstallNothing" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="100" assertions="5" time="0.052589"/>
+      <testcase name="testUpdate" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="114" assertions="10" time="0.091826"/>
+      <testcase name="testUpdateNothing" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="133" assertions="5" time="0.052650"/>
+      <testcase name="testIsDependantPackage" class="Eloquent\Composer\NpmBridge\NpmBridgeTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmBridgeTest.php" line="147" assertions="6" time="0.024628"/>
     </testsuite>
-    <testsuite name="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" tests="10" assertions="42" failures="0" errors="0" time="1.895786">
-      <testcase name="testInstall" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="34" assertions="10" time="1.495897"/>
-      <testcase name="testInstallProductionMode" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="49" assertions="6" time="0.049192"/>
-      <testcase name="testInstallFailureNpmNotFound" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="60" assertions="1" time="0.028109"/>
-      <testcase name="testInstallFailureCommandFailed" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="68" assertions="1" time="0.041921"/>
-      <testcase name="testUpdate" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="76" assertions="10" time="0.071310"/>
-      <testcase name="testUpdateFailureNpmNotFound" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="91" assertions="1" time="0.027480"/>
-      <testcase name="testUpdateFailureCommandFailed" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="99" assertions="1" time="0.041656"/>
-      <testcase name="testShrinkwrap" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="107" assertions="10" time="0.070853"/>
-      <testcase name="testShrinkwrapFailureNpmNotFound" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="122" assertions="1" time="0.027306"/>
-      <testcase name="testShrinkwrapFailureCommandFailed" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="130" assertions="1" time="0.042062"/>
+    <testsuite name="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" tests="10" assertions="42" failures="0" errors="0" time="1.899375">
+      <testcase name="testInstall" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="34" assertions="10" time="1.499270"/>
+      <testcase name="testInstallProductionMode" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="49" assertions="6" time="0.048909"/>
+      <testcase name="testInstallFailureNpmNotFound" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="60" assertions="1" time="0.027995"/>
+      <testcase name="testInstallFailureCommandFailed" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="68" assertions="1" time="0.041479"/>
+      <testcase name="testUpdate" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="76" assertions="10" time="0.070636"/>
+      <testcase name="testUpdateFailureNpmNotFound" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="91" assertions="1" time="0.027570"/>
+      <testcase name="testUpdateFailureCommandFailed" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="99" assertions="1" time="0.041541"/>
+      <testcase name="testShrinkwrap" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="107" assertions="10" time="0.070632"/>
+      <testcase name="testShrinkwrapFailureNpmNotFound" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="122" assertions="1" time="0.029201"/>
+      <testcase name="testShrinkwrapFailureCommandFailed" class="Eloquent\Composer\NpmBridge\NpmClientTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmClientTest.php" line="130" assertions="1" time="0.042142"/>
     </testsuite>
-    <testsuite name="Eloquent\Composer\NpmBridge\NpmVendorFinderTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmVendorFinderTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.030058">
-      <testcase name="testFind" class="Eloquent\Composer\NpmBridge\NpmVendorFinderTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmVendorFinderTest.php" line="62" assertions="1" time="0.030058"/>
+    <testsuite name="Eloquent\Composer\NpmBridge\NpmVendorFinderTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmVendorFinderTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.031109">
+      <testcase name="testFind" class="Eloquent\Composer\NpmBridge\NpmVendorFinderTest" file="/home/travis/build/eloquent/composer-npm-bridge/test/suite/NpmVendorFinderTest.php" line="62" assertions="1" time="0.031109"/>
     </testsuite>
   </testsuite>
 </testsuites>
