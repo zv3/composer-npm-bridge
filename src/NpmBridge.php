@@ -109,7 +109,7 @@ class NpmBridge
         return false;
     }
 
-    private function installForVendors($composer)
+    private function installForVendors(Composer $composer)
     {
         $this->io->write(
             '<info>Installing NPM dependencies for Composer dependencies</info>'
@@ -127,9 +127,9 @@ class NpmBridge
                 );
 
                 $this->client->install(
-                    $composer->getInstallationManager()
-                        ->getInstallPath($package),
-                    false
+                    null,
+                    false,
+                    $composer->getInstallationManager()->getInstallPath($package)
                 );
             }
         } else {

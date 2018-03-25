@@ -16,7 +16,7 @@ class NpmVendorFinder
      * @param Composer  $composer The Composer object for the root project.
      * @param NpmBridge $bridge   The bridge to use.
      *
-     * @return array<integer,PackageInterface> The list of NPM bridge enabled vendor packages.
+     * @return PackageInterface[] The list of NPM bridge enabled vendor packages.
      */
     public function find(Composer $composer, NpmBridge $bridge): array
     {
