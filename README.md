@@ -1,3 +1,5 @@
+> This is a forked version of the **Composer NPM bridge** *composer* plugin which aims to solve the issue with having multiple `node_modules`, each one located underneath the composer vendor packages that got installed as dependency to a root *composer* based project, making it impossible for a standard nodejs setup to resolve, from the root project directory, the dependencies that got installed separately in each of these `node_modules` directories.
+
 # Composer NPM bridge
 
 *NPM integration for Composer packages.*
